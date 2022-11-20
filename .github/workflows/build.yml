@@ -19,9 +19,8 @@ jobs:
     - name: Checkout til-db
       uses: actions/checkout@v2
       with:
-        repository: jamesmstone/til-db
         path: til-db
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN_FOR_PUSH }}
+        ref: db
     - name: Set up Python
       uses: actions/setup-python@v1
       with:
@@ -48,7 +47,7 @@ jobs:
     - name: Download previous database unless REBUILD in commit message
       if: |-
         !contains(github.event.head_commit.message, 'REBUILD')
-      run: curl --fail -o main/tils.db https://s3.amazonaws.com/til.simonwillison.net/tils.db
+      run: mv til-db/tils.db main/tils.db
       continue-on-error: true
     - name: Build database
       run: |-
@@ -75,7 +74,7 @@ jobs:
         git config --global user.name "README-bot"
         git diff --quiet || (git add README.md && git commit -m "Updated README")
         git push
-    - name: Save tils.db to jamesmstone/til-db
+    - name: Save tils.db to jamesmstone/til-db:db
       run: |-
         cd til-db
         cp ../main/tils.db .
