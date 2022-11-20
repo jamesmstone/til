@@ -16,4 +16,4 @@ I wanted to have a GitHub Action step run that might fail, but if it failed the 
 
 I'm using `curl --fail` here which returns an error code if the file download files (without `--fail` it was writing out a two line error message to a file called `tils.db` which is not what I wanted). Then `continue-on-error: true` to keep on going even if the download failed.
 
-My `build_database.py` script updates the `tils.db` database file if it exists and creates it from scratch if it doesn't.
+Simon's `build_database.py` script updates the `tils.db` database file if it exists and creates it from scratch if it doesn't.
