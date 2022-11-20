@@ -2,7 +2,7 @@
 
 My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/til).
 
-Search these TILs at https://til.jamesst.one/
+Search these TILs at https://til.jamesst.one
 
 <!-- count starts -->352<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
