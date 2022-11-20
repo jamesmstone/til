@@ -89,7 +89,7 @@ jobs:
         wget https://latest.datasette.io/fixtures.db
         datasette publish vercel tils.db fixtures.db \
           --token $VERCEL_TOKEN \
-          --project james-til \
+          --project jamesmstone-til \
           --scope datasette \
           --metadata metadata.yaml \
           --static static:static \
