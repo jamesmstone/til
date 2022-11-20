@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - main
+    - reset-til
 
 jobs:
   build:
@@ -15,6 +16,12 @@ jobs:
       with:
         fetch-depth: 0
         path: main
+    - name: Checkout til-db
+      uses: actions/checkout@v2
+      with:
+        repository: jamesmstone/til-db
+        path: til-db
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN_FOR_PUSH }}
     - name: Set up Python
       uses: actions/setup-python@v1
       with:
@@ -50,7 +57,7 @@ jobs:
     - name: Soundness check
       run: |-
         cd main
-        datasette . --get / | grep "Simon Willison: TIL"
+        datasette . --get / | grep "James Stone: TIL"
     - name: Generate missing screenshots
       run: |-
         cd main
@@ -68,21 +75,23 @@ jobs:
         git config --global user.name "README-bot"
         git diff --quiet || (git add README.md && git commit -m "Updated README")
         git push
-    - name: Upload latest tils.db to the S3 bucket
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    - name: Save tils.db to jamesmstone/til-db
       run: |-
-        s3-credentials put-object til.simonwillison.net tils.db main/tils.db
+        cd til-db
+        cp ../main/tils.db .
+        git add tils.db
+        git commit --amend --no-edit
+        git push --force
+
     - name: Deploy Datasette using Vercel
       env:
-        NOW_TOKEN: ${{ secrets.NOW_TOKEN }}
+        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       run: |-
         cd main
         wget https://latest.datasette.io/fixtures.db
         datasette publish vercel tils.db fixtures.db \
-          --token $NOW_TOKEN \
-          --project simon-til \
+          --token $VERCEL_TOKEN \
+          --project james-til \
           --scope datasette \
           --metadata metadata.yaml \
           --static static:static \

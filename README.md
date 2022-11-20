@@ -1,10 +1,10 @@
 # Today I Learned
 
-My Today I Learned snippets. Inspired by [jbranchaud/til](https://github.com/jbranchaud/til), which I spotted [on Hacker News](https://news.ycombinator.com/item?id=22908044).
+My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/til).
 
-Search these TILs at https://til.simonwillison.net/
+Search these TILs at https://til.jamesst.one/
 
-<!-- count starts -->352<!-- count ends --> TILs so far. <a href="https://til.simonwillison.net/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->352<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
