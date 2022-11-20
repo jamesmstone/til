@@ -90,7 +90,6 @@ jobs:
         datasette publish vercel tils.db fixtures.db \
           --token $VERCEL_TOKEN \
           --project jamesmstone-til \
-          --scope datasette \
           --metadata metadata.yaml \
           --static static:static \
           --install datasette-template-sql \
