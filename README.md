@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->2<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->3<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -16,4 +16,8 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## postgres
 
 * [Alias plpgsql variables](https://github.com/jamesmstone/til/blob/main/postgres/alias-plpgsql-variables.md) - 2022-11-24
+
+## typescript
+
+* [React get a components prop types](https://github.com/jamesmstone/til/blob/main/typescript/react-component-prop.md) - 2022-11-24
 <!-- index ends -->
