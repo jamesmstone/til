@@ -31,11 +31,6 @@ $$ language plpgsql;
 But you can also use `ALIAS FOR`:
 
 ```plpgsql
-create table data.user (
-  id serial primary key;
-  name text not null;
-  birth_date date not null;
-);
 create function age( "user" int ) returns int as 
 $$
   declare
