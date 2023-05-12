@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->4<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->5<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -24,4 +24,8 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## javascript
 
 * [ESM HTTP imports](https://github.com/jamesmstone/til/blob/main/javascript/esm-http-imports.md) - 2022-12-22
+
+## awk
+
+* [AWK from and to pattern matches](https://github.com/jamesmstone/til/blob/main/awk/from-to-pattern-match.md) - 2023-05-13
 <!-- index ends -->
