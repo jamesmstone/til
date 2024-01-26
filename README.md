@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->6<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->7<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -32,4 +32,8 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## sh
 
 * [Interactively debug a sh script](https://github.com/jamesmstone/til/blob/main/sh/debugging-sh-scripts.md) - 2023-08-16
+
+## human
+
+* [Blood types](https://github.com/jamesmstone/til/blob/main/human/blood-types.md) - 2024-01-26
 <!-- index ends -->
