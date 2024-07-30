@@ -1,46 +1,8 @@
-# AWK from and to pattern matches
+# Swimming pool depth can impact race speed
 
-when using awk to parse a file I was aware it uses this basic structure:
+- In the men's 100-meter breaststroke final at the 2024 French Olympics, no swimmer finished better time then Tokyo Olympics race from 3 years earlier.
+- In the women’s 400 freestyle, three former world record holders failed to reach their personal bests, and Katie Ledecky did not break 4 minutes.
+- The swimming pool at Paris La Défense Arena is **2.15 meters deep**, below the recommended **3 meters** by World Aquatics but above the **previous minimum** of **2 meters.**
+- Shallower pools may cause “wavy” or choppy water, affecting performance, especially in the breaststroke.
 
-```awk
-pattern { action }
-```
-
-eg
-```shell
-seq 1 10 | awk '/2/{print $0}'
-```
-**Outputs**
-```text
-2
-```
-
-and if you omit an action it defaults to `print $0` ie print the whole matching line.
-
------
-
-I was not aware however you can have multiple `pattern` seperated by `,` and it will match from the first pattern until the last pattern
-
-
-Relevant excerpt from the man page:
-
->A pattern may consist of two patterns separated by a comma; in this case, the action is performed for all lines from an occurrence of the first pattern though an occurrence of the second
-> 
-## Example
-
-```shell
- seq 1 10 | awk '/2/,/8/'
-```
-
-**Outputs**
-```text
-2
-3
-4
-5
-6
-7
-8
-```
-
-Discovered from: https://www.reddit.com/r/bash/comments/12z9snv/comment/jhrlrg2/
+From: [Yahoo Sports](https://sports.yahoo.com/paris-olympics-2024-is-a-slow-swimming-pool-impeding-world-records-133347713.html)
