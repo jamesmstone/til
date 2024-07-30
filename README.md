@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->8<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->9<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -40,4 +40,8 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## terminal
 
 * [Searching scrollback in Alacritty](https://github.com/jamesmstone/til/blob/main/terminal/search-alacritty.md) - 2024-07-30
+
+## swimming
+
+* [AWK from and to pattern matches](https://github.com/jamesmstone/til/blob/main/swimming/swimming-speed-and-pool.md) - 2024-07-30
 <!-- index ends -->
