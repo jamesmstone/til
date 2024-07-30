@@ -43,5 +43,5 @@ Datasette instance:  https://til.jamesst.one/tils/til
 
 ## swimming
 
-* [AWK from and to pattern matches](https://github.com/jamesmstone/til/blob/main/swimming/swimming-speed-and-pool.md) - 2024-07-30
+* [Swimming pool depth can impact race speed](https://github.com/jamesmstone/til/blob/main/swimming/swimming-speed-and-pool.md) - 2024-07-30
 <!-- index ends -->
