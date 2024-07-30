@@ -6,3 +6,6 @@
 - Shallower pools may cause “wavy” or choppy water, affecting performance, especially in breaststroke.
 
 From: [Yahoo Sports](https://sports.yahoo.com/paris-olympics-2024-is-a-slow-swimming-pool-impeding-world-records-133347713.html)
+
+- However, [Kyle Chalmers](https://en.wikipedia.org/wiki/Kyle_Chalmers) swam the world's fastest time in the 100m freestyle. however as he was not swimming the first leg of the race it does not count. From:
+https://www.tyla.com/news/kyle-chalmers-olympics-relay-world-record-545320-20240729
