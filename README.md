@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->7<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->8<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -36,4 +36,8 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## human
 
 * [Blood types](https://github.com/jamesmstone/til/blob/main/human/blood-types.md) - 2024-01-26
+
+## terminal
+
+* [Searching scrollback in Alacritty](https://github.com/jamesmstone/til/blob/main/terminal/search-alacritty.md) - 2024-07-30
 <!-- index ends -->
