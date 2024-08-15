@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->9<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->10<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -44,4 +44,8 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## swimming
 
 * [Swimming pool depth can impact race speed](https://github.com/jamesmstone/til/blob/main/swimming/swimming-speed-and-pool.md) - 2024-07-30
+
+## decision-making
+
+* [-  if you're unsure what to do, always choose the option that makes the better story.](https://github.com/jamesmstone/til/blob/main/decision-making/Decision making.md) - 2024-08-15
 <!-- index ends -->
