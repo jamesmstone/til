@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->10<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->11<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -47,5 +47,6 @@ Datasette instance:  https://til.jamesst.one/tils/til
 
 ## decision-making
 
-* [-  if you're unsure what to do, always choose the option that makes the better story.](https://github.com/jamesmstone/til/blob/main/decision-making/Decision making.md) - 2024-08-15
+* [Decision making](https://github.com/jamesmstone/til/blob/main/decision-making/Decision making.md) - 2024-08-15
+* [Decision making](https://github.com/jamesmstone/til/blob/main/decision-making/decision-making.md) - 2024-08-16
 <!-- index ends -->
