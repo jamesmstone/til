@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->11<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->12<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -32,6 +32,7 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## sh
 
 * [Interactively debug a sh script](https://github.com/jamesmstone/til/blob/main/sh/debugging-sh-scripts.md) - 2023-08-16
+* [Adding auto complete in bash](https://github.com/jamesmstone/til/blob/main/sh/auto-completion.md) - 2024-08-29
 
 ## human
 
