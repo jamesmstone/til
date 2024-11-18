@@ -1,6 +1,6 @@
 # Searching scrollback in Alacritty
 
-I use [Alacritty](https://github.com/alacritty/alacritty) as my terminal emulator. To be honest I am not sure why...  it gets out of my way and seems top be fast enough
+I use [Alacritty](https://github.com/alacritty/alacritty) as my terminal emulator. To be honest I am not sure why...  it gets out of my way and seems to be fast enough
 
 Anyway, I wanted to be able to search the scrollback buffer.
 
