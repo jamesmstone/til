@@ -33,3 +33,9 @@ jobs:
           git commit -am "Automated report"
           git push
 ```
+
+
+It it discussed on the github blog: [GitHub Actions: Control permissions for GITHUB\_TOKEN - GitHub Changelog](https://github.blog/changelog/2021-04-20-github-actions-control-permissions-for-github_token/)
+
+
+and here is the docs: [Automatic token authentication - GitHub Docs](https://docs.github.com/en/actions/security-for-github-actions/security-guides/automatic-token-authentication#modifying-the-permissions-for-the-github_token)
