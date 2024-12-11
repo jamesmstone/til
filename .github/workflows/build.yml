@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       # We need full history to introspect created/updated:
       with:
         fetch-depth: 0
@@ -21,28 +21,28 @@ jobs:
         path: til-db
         ref: db
     - name: Set up Python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
-        python-version: 3.8
-    - uses: actions/cache@v2
+        python-version: 3.11
+    - uses: actions/cache@v3
       name: Configure pip caching
       with:
         path: ~/.cache/pip
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-pip-
-    - uses: actions/cache@v2
+    - name: Cache Playwright browsers
+      uses: actions/cache@v3
       with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-
-        restore-keys: |
-          ${{ runner.os }}-node-
+        path: ~/.cache/ms-playwright/
+        key: ${{ runner.os }}-browsers
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r main/requirements.txt
-    - name: Install npm dependencies
-      run: sudo npm install -g puppeteer-cli --unsafe-perm=true
+    - name: Install Playwright dependencies
+      run: |
+        shot-scraper install
     - name: Download previous database unless REBUILD in commit message
       if: |-
         !contains(github.event.head_commit.message, 'REBUILD')
@@ -98,7 +98,7 @@ jobs:
           --install datasette-json-html \
           --install beautifulsoup4 \
           --install "datasette-debug-asgi>=1.1" \
-          --install "datasette-graphql>=0.12" \
+          --install "datasette-graphql>=2.2" \
           --install datasette-media \
           --install datasette-block-robots \
           --plugins-dir plugins \
