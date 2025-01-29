@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->14<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->16<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -17,6 +17,7 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## postgres
 
 * [Alias plpgsql variables](https://github.com/jamesmstone/til/blob/main/postgres/alias-plpgsql-variables.md) - 2022-11-24
+* [DDL Postgres Macros](https://github.com/jamesmstone/til/blob/main/postgres/ddl-macros.md) - 2025-01-29
 
 ## typescript
 
@@ -52,4 +53,8 @@ Datasette instance:  https://til.jamesst.one/tils/til
 
 * [Decision making](https://github.com/jamesmstone/til/blob/main/decision-making/Decision making.md) - 2024-08-15
 * [Decision making](https://github.com/jamesmstone/til/blob/main/decision-making/decision-making.md) - 2024-08-16
+
+## IKEA
+
+* [IKEAs restaurant](https://github.com/jamesmstone/til/blob/main/IKEA/IKEAs-restaurant.md) - 2025-01-29
 <!-- index ends -->
