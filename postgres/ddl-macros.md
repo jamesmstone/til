@@ -42,8 +42,9 @@ This will modify the specified table by adding the `created_user` and `created_a
 ## Modified
 
 
-To add similar columns for tracking modifications, you can create a new macro called `add_modified_columns`. Here's an
-example:
+To add similar columns for tracking modifications, you can create a new macro called `add_modified_columns`. Here's an example:
+
+**Note:** this also adds a trigger to keep the modified at up to date. 
 
 ```postgresql
    create or replace function update_modified_at()
