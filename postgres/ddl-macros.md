@@ -1,6 +1,6 @@
 # DDL Postgres Macros
 
-In postgres you may find yourself repeating common operations on all your tables. For example adding an audit log ,created times, modified user etc.
+In postgres you may find yourself repeating common operations on all your tables. For example adding an [audit log](https://github.com/WHauser-HP/postgres_audit), created times, modified user etc.
 
 This can be tedious to add everywhere. Instead, you can create a postgres "macro" to update your DDL for you
 
@@ -90,3 +90,5 @@ SELECT public.add_modified_columns('public.orders'),
 ```
 
 This will modify the specified table by adding the `modified_user` and `modified_at` columns.
+
+
