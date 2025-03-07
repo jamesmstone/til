@@ -5,7 +5,7 @@
 Linus Torvalds
 
 
-I actually think this can be generalised
+I actually think this can be generalised:
 
 
 > Most good Xers do X not because they expect to get paid or get adulation by the public, but because it is fun to X.
