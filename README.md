@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->16<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->17<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -57,4 +57,8 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## IKEA
 
 * [IKEAs restaurant](https://github.com/jamesmstone/til/blob/main/IKEA/IKEAs-restaurant.md) - 2025-01-29
+
+## wisdom
+
+* [Decision making](https://github.com/jamesmstone/til/blob/main/wisdom/decision-making.md) - 2025-03-07
 <!-- index ends -->
