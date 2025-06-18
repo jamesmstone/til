@@ -65,5 +65,5 @@ Datasette instance:  https://til.jamesst.one/tils/til
 
 ## containers
 
-* [](https://github.com/jamesmstone/til/blob/main/containers/sh-sidecars.md) - 2025-06-18
+* [Container sidecar shells](https://github.com/jamesmstone/til/blob/main/containers/sh-sidecars.md) - 2025-06-18
 <!-- index ends -->
