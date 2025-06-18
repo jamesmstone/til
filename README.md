@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->18<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->19<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -62,4 +62,8 @@ Datasette instance:  https://til.jamesst.one/tils/til
 
 * [Decision making](https://github.com/jamesmstone/til/blob/main/wisdom/decision-making.md) - 2025-03-07
 * [Good programmers](https://github.com/jamesmstone/til/blob/main/wisdom/good-programmers.md) - 2025-03-07
+
+## containers
+
+* [](https://github.com/jamesmstone/til/blob/main/containers/sh-sidecars.md) - 2025-06-18
 <!-- index ends -->
