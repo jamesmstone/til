@@ -1,3 +1,4 @@
+# Container sidecar shells
 
 > Having tools in a container might sometimes be useful for different debugging. Just exec into it and start the diagnostics. With a distroless/minimized image, it's not that easy. What we can do instead is attach a sidecar container:
 > 
