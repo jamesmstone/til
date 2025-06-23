@@ -37,5 +37,3 @@ sidecar-sh() {
 }
 
 ```
-
-**Usage:** `sidecar-sh <container-name>` and you will be alongside your process  
