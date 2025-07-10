@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->19<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->21<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -66,4 +66,12 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## containers
 
 * [Container sidecar shells](https://github.com/jamesmstone/til/blob/main/containers/sh-sidecars.md) - 2025-06-18
+
+## nix
+
+* [Adding shell completions to a command in nix](https://github.com/jamesmstone/til/blob/main/nix/shell-completions.md) - 2025-07-10
+
+## git
+
+* [Git ting a good version from git](https://github.com/jamesmstone/til/blob/main/git/git-version.md) - 2025-07-10
 <!-- index ends -->
