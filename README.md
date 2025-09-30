@@ -6,7 +6,7 @@ Search: https://til.jamesst.one
 
 Datasette instance:  https://til.jamesst.one/tils/til
 
-<!-- count starts -->21<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->22<!-- count ends --> TILs so far. <a href="https://til.jamesst.one/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -70,6 +70,7 @@ Datasette instance:  https://til.jamesst.one/tils/til
 ## nix
 
 * [Adding shell completions to a command in nix](https://github.com/jamesmstone/til/blob/main/nix/shell-completions.md) - 2025-07-10
+* [Using network in a nix build](https://github.com/jamesmstone/til/blob/main/nix/use-network-in-nix-build.md) - 2025-09-30
 
 ## git
 
